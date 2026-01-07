@@ -22,8 +22,8 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 600))
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", None))
 
 # Vars For API End Pont.
-YTPROXY_URL = getenv("YTPROXY_URL", 'https://tgapi.xbitcode.com') ## xBit Music Endpoint.
-YT_API_KEY = getenv("YT_API_KEY" , None ) ## Your API key like: xbit_2C1qBdO30H4yobX8vzpAVXSNuUxnEDQb Get from  https://t.me/tgmusic_apibot
+API_URL = getenv("API_URL", "https://tgmusic.fallenapi.fun")
+API_KEY = getenv("API_KEY", "c0a054_fW2vswuUzMhw6isuc0xDqT53FovQF5AF")
 
 # Get this value from @MissRose_Bot on Telegram by /id
 OWNER_ID = int(getenv("OWNER_ID", None)) 
