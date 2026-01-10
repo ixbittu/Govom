@@ -21,11 +21,6 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 600))
 # Chat id of a group for logging bot's activities
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", None))
 
-# Vars For API End Pont.
-API_URL = getenv("API_URL", 'https://api.nexgenbots.xyz') #youtube song url
-VIDEO_API_URL = getenv("VIDEO_API_URL", 'https://api.video.nexgenbots.xyz')
-API_KEY = getenv("API_KEY", "NxGBNexGenBots003507") # youtube song api key, generate free key or buy paid plan from https://console.nexgenbots.xyz
-
 # Get this value from @MissRose_Bot on Telegram by /id
 OWNER_ID = int(getenv("OWNER_ID", None)) 
 ## Fill these variables if you're deploying on heroku.
@@ -44,8 +39,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", ""
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHAT", "https://t.me/+c91rvM5PtDNhZjA1")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/freindgroup57")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHAT", "https://t.me/govobots")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/govobots")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
