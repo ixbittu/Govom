@@ -21,6 +21,10 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 600))
 # Chat id of a group for logging bot's activities
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", None))
 
+API_URL = getenv("API_URL", 'https://api.nexgenbots.xyz') #youtube song url
+VIDEO_API_URL = getenv("VIDEO_API_URL", 'https://api.video.nexgenbots.xyz')
+API_KEY = getenv("API_KEY", "NxGBNexGenBots003507") # youtube song api key, generate free key or buy paid plan from https://console.nexgenbots.xyz
+
 # Get this value from @MissRose_Bot on Telegram by /id
 OWNER_ID = int(getenv("OWNER_ID", None)) 
 ## Fill these variables if you're deploying on heroku.
@@ -29,9 +33,6 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 # Get it from http://dashboard.heroku.com/account
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
-API_URL = getenv("API_URL", 'https://api.nexgenbots.xyz') #youtube song url
-VIDEO_API_URL = getenv("VIDEO_API_URL", 'https://api.video.nexgenbots.xyz')
-API_KEY = getenv("API_KEY", "NxGBNexGenBots003507") # youtube song api key, generate free key or buy paid plan from https://console.nexgenbots.xyz
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
